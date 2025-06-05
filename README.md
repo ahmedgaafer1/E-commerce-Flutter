@@ -1,16 +1,31 @@
-# electrocommerce
+# ElectroCommerce Flutter App
 
-A new Flutter project.
+This project is a final e-commerce application built using **Flutter**. It supports essential e-commerce features including:
 
-## Getting Started
+- User Registration & Login (with API Integration)
+- Product Listing (via API)
+- Category Filtering
+- Cart Management (with persistent SharedPreferences)
+- Order History
+- Profile Page with local image and saved data
 
-This project is a starting point for a Flutter application.
+## Developer
 
-A few resources to get you started if this is your first Flutter project:
+Developed by: **Ahmed Mohamed Gaafer**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `lib/screens`: Contains all UI screens (Login, Register, Home, Cart, Orders)
+- `lib/data`: Global state and shared preferences data
+- `lib/models`: Data models for Products and Cart Items
+- `lib/services`: API service integration for products and categories
+
+## Notes
+
+- Offline-safe cart and order persistence using SharedPreferences
+- Placeholder images handle missing API images
+- Main color theme: `BlueAccent`
+
+---
+
+> This project is part of the ITI Final Flutter Course Assignment under the supervision of Eng. Ibrahim

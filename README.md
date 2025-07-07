@@ -32,22 +32,21 @@ ElectroCommerce is a lightweight and functional e-commerce Flutter app designed 
 
 ## 🚀 Features
 
-- **Authentication:**  
-  - User Registration & Login (مع تكامل API)
-- **Product Catalog:**  
-  - Product Listing (عبر API)
-  - Category Filtering
-- **Cart System:**  
-  - Cart Management (حفظ تلقائي في SharedPreferences)
-  - Offline-safe cart persistence
-- **Order Management:**  
-  - View and track order history
-- **Profile:**  
-  - Profile page (تعديل صورة المستخدم المحلية وحفظ البيانات)
-- **UI/UX:**  
-  - Modern, responsive UI with BlueAccent theme
-  - Placeholder images for missing API images
-
+- **Authentication**  
+  - Full user registration and login system with secure API integration.
+- **Product Catalog**  
+  - Real-time product listing from API.
+  - Organized filtering by categories.
+- **Cart System**  
+  - Add, update, and remove items with persistent cart storage.
+  - Fully functional offline-safe cart experience.
+- **Order Management**  
+  - Browse and track previous orders locally.
+- **Profile Management**  
+  - Custom profile page with editable local user image and data.
+- **Modern UI/UX**  
+  - Sleek and responsive interface built using `BlueAccent` theme.
+  - Fallback images for unavailable API content.
 ---
 
 ## 🖼️ Screenshots
@@ -70,7 +69,7 @@ ElectroCommerce is a lightweight and functional e-commerce Flutter app designed 
 ## 🎬 App Preview
 
 <div align="center">
-  <img src="record.gif" width="300" alt="App Preview"/>
+  <img src="/screenshots/record.gif" width="300" alt="App Preview"/>
 </div>
 
 ---
